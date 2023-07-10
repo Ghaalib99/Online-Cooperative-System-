@@ -11,29 +11,25 @@ const Profile = () => {
     <div>
       <div className="h-20 mb-4 w-full bg-white py-2 px-6 flex justify-between items-center  z-50 shadow-2xl">
         <Link to="/">
-          <h1 className="font-bold text-3xl title text-primary cursor-pointer">
+          <h1 className="font-bold text-lg lg:text-3xl title text-primary cursor-pointer">
             Online Cooperative System
           </h1>
         </Link>
-
         <div className="flex justify-between w-[210px]"></div>
       </div>
 
       <div className="w-[90%] mx-auto  p-4">
         <div className=" h-[50px] mb-[10px] flex items-center cursor-pointer">
-          {/* <MdArrowBackIos
-            onClick={() => navigate(-1)}
-            sx={{ cursor: "pointer" }}
-          /> */}
+        
           <h1 className="ml-8 font-bold text-3xl ">Profile</h1>
         </div>
-        <div className="block lg:flex justify-between gap-4 mb-4">
-          <div className="w-full lg:w-[35%] bg-white rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] min-w-[350px] h-[420px] p-4">
+        <div className="block lg:flex  justify-between gap-4 mb-4">
+          <div className=" lg:w-[35%] bg-white mb-6 lg:mb-0 rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   p-4">
             <div className="h-[200px] relative w-full flex justify-center items-center">
               <img
                 src={Ellipse120pic}
                 alt=""
-                className="block rounded-full h-[180px] w-[180px] "
+                className="block rounded-full h-[120px] w-[120px] lg:h-[180px] lg:w-[180px] "
               />
             </div>
             <div className="mt-auto text-center w-full">
@@ -66,7 +62,7 @@ const Profile = () => {
             </div>
           </div>
 
-          <div className="hidden lg:block lg:w-[65%] bg-white rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] h-[420px] p-4">
+          <div className=" lg:w-[65%] bg-white rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]  p-4">
             <h2 className="font-bold text-3xl mb-8">Dashboard</h2>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-4">
               <div className="w-[]  shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white rounded-[8px] p-4 ">

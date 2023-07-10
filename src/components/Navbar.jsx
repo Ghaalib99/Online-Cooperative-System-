@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <div className="h-20 w-full bg-white py-2 px-6 flex justify-between items-center fixed z-50 shadow-2xl">
       <Link to='/'>
-        <h1 className="font-bold text-3xl title text-primary cursor-pointer">
+        <h1 className="font-bold text-lg lg:text-3xl title text-primary cursor-pointer">
           Online Cooperative System
         </h1>
         </Link>
