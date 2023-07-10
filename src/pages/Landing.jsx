@@ -10,15 +10,15 @@ const Landing = () => {
   return (
     <div className="w-full bg-primary ">
       <Navbar />
-      <div className="w-full  grid grid-cols-2 gap-4 h-[100vh] relative">
+      <div className="w-full  lg:grid grid-cols-2 gap-4 h-[100vh] relative">
         <img src={land4} alt="" className="absolute top-[-150px] right-0" />
         <div className="p-6 flex items-center text-white ">
-          <div className=" w-[70%] mx-auto">
-            <h1 className=" text-2xl title text-center lg:text-left md:text-4xl leading-[50px] lg:leading-[65px]">
+          <div className=" w-[70%] mx-auto mt-40 z-10 lg:mt-0 ">
+            <h1 className="mb-6 text-2xl title text-center lg:text-left md:text-4xl leading-[50px] lg:leading-[65px]">
               Online Cooperative System
             </h1>
             <h1
-              className=" text-4xl text-center lg:text-left md:text-4xl leading-[50px] lg:leading-[65px] mb-4 font-bold"
+              className="mb-6 text-4xl text-center lg:text-left md:text-4xl leading-[50px] lg:leading-[65px] lg:mb-4 font-bold"
               style={{ fontFamily: "Raleway" }}
             >
               Secure Your Future Now
@@ -43,9 +43,9 @@ const Landing = () => {
           </div>
         </div>
         <div>
-          {/* <div className="hidden lg:block w-full lg:mt-10 lg:w-[50%] h-[100%]">
-            <img src={cooperative1} alt="" className="rounded-full " />
-          </div> */}
+          <div className="hidden lg:block w-full lg:mt-10 lg:w-[50%] h-[100%]">
+            {/* <img src={cooperative1} alt="" className="rounded-full " /> */}
+          </div> 
         </div>
       </div>
 

@@ -15,7 +15,7 @@ const Signup = () => {
       </div>
 
       <div className="w-full h-[100vh]  bg-white  flex justify-center items-center">
-      <div className="w-[30%] bg-primary py-4 px-6 rounded-2xl mt-10 ">
+      <div className="w-[70%] lg:w-[30%] bg-primary py-4 px-6 rounded-2xl mt-10 ">
         <h1 className="font-bold text-3xl mb-8 text-white  text-center">
           Register
         </h1>
