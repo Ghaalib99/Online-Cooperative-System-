@@ -45,13 +45,21 @@ const Navbar = () => {
         />
       </div>
       {mobileMenu && (
-        <Link to='/register'>
-          <div className="bg-[#e9ad53] md:hidden w-full h-40 absolute top-[60px] z-50 cursor-pointer flex justify-center items-center shadow-2xl">
-            <button className="theme-btn btn-style-four hover:text-[#e9ad53] ">
-              Register/Login
+        
+          <div className="bg-[#e9ad53] md:hidden w-full h-40 absolute top-[60px] z-50 cursor-pointer flex justify-around items-center shadow-2xl">
+           <Link to='/register'>
+           <button className="theme-btn btn-style-four hover:text-[#e9ad53] ">
+              Register
             </button>
+           </Link>
+           <Link to='/register'>
+           <button className="theme-btn btn-style-four hover:text-[#e9ad53] ">
+              Login
+            </button>
+           </Link>
+            
           </div>
-        </Link>
+        
       )}
     </>
   );

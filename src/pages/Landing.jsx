@@ -157,7 +157,7 @@ const Landing = () => {
                     textAlign: "center",
                   }}
                 >
-                  <Link to="/Login to your dashboard">
+                  <Link to="/login">
                     <button
                       data-toggle="modal"
                       data-target="#landingModal"
