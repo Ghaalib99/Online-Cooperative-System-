@@ -178,7 +178,7 @@ const Landing = () => {
         style={{ fontFamily: "Raleway" }}
       >
         <p className="mb-6 font-bold">
-          Online Cooperative Society. COPYRIGHT@2023
+          LUXE. COPYRIGHT@2023
         </p>
       </footer>
     </div>

@@ -7,7 +7,7 @@ const Signup = () => {
        <div className="h-20 fixed  w-full bg-white py-2 px-6 flex justify-between items-center  z-50 shadow-2xl">
         <Link to="/">
           <h1 className="font-bold text-lg lg:text-3xl title text-primary cursor-pointer">
-            Online Cooperative System
+            Luxe
           </h1>
         </Link>
 
