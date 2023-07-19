@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import jazalogo from "../../assets/images/jazalogo.jpg";
-// import jazalogo2 from "../../assets/images/jazalogo2.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, useParams, NavLink } from "react-router-dom";
 

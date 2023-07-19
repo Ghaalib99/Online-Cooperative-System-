@@ -19,16 +19,18 @@ const Investment = () => {
         </div>
         <div className="w-full h-full bg-light bg-opacity-90 text-center p-6 text-white flex justify-center items-center flex-col">
           <h3 className="font-bold text-2xl w-[70%] my-4">
-            Luxe Online Cooperative Platform grants you access to Investment
-            that are payable over a long period of time at very low interests.
+          Invest with Confidence at Luxe!
           </h3>
-          <p className="w-[70%] text-xl">
-            Investment are granted based on the credit limit of each
-            individual Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Officia magni nihil ratione.
+          <p className="w-[70%] text-xl mb-4">
+          At Luxe, you can grow your wealth through smart and secure investments.
+        Investing with Luxe offers you the opportunity to participate in a range of diverse and rewarding investment options,
+        allowing you to achieve your financial goals with confidence.
           </p>
+          <p className="w-[70%] text-xl mb-4"> With Luxe, you gain access to a diverse range of investment products, from high-growth ventures to stable income-generating assets.
+        We employ rigorous due diligence and risk assessment processes to ensure that every investment opportunity is of high quality and aligned with your financial aspirations.
+        Rest assured that your investments are handled with the utmost professionalism and security.</p>
           <button className="bg-primary font-bold w-[200px] h-[50px] my-6 rounded-xl">
-            Apply Now
+            Invest Now
           </button>
         </div>
       </div>

@@ -13,19 +13,27 @@ const AssetFinancing = () => {
     <>
       <Navbar />
 
-      <div className="w-full  lg:grid grid-cols-2 h-[100vh]">
+      <div className="w-full  lg:grid grid-cols-2 min-h-[100vh]">
         <div className="hidden lg:block h-full ">
           <img src={asset} alt="" className=" w-full h-full object-cover " />
         </div>
         <div className="w-full h-full bg-light bg-opacity-90 text-center p-6 text-white flex justify-center items-center flex-col">
           <h3 className="font-bold text-2xl w-[70%] my-4">
-            Luxe Online Cooperative Platform grants you access to AssetFinancing
-            that are payable over a long period of time at very low interests.
+          Acquire Assets with Ease through Luxe Asset Financing!
           </h3>
-          <p className="w-[70%] text-xl">
-            AssetFinancing are granted based on the credit limit of each
-            individual Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Officia magni nihil ratione.
+          <p className="w-[70%] text-xl mb-4">
+          At Luxe, we understand that access to modern assets and equipment is essential for individuals and businesses to thrive.
+        Our Asset Financing solutions offer you the flexibility to acquire the assets you need without straining your financial resources.
+          </p>
+          <p className="w-[70%] text-xl mb-4">
+          If you are an individual seeking a house, car, or home appliances,
+        our Asset Financing options are tailored to suit your specific requirements.
+        We partner with leading asset suppliers to provide you with a wide range of quality assets at competitive rates.
+          </p>
+          <p className="w-[70%] text-xl mb-4">
+          With Luxe Asset Financing, you can preserve your working capital and maintain a healthy cash flow while enjoying the benefits of using modern and efficient assets.
+        We offer flexible repayment terms and competitive interest rates, making asset acquisition hassle-free and cost-effective.
+        Plus, our dedicated team of financial experts is available to assist you in selecting the best financing solution for your needs.
           </p>
           <button className="bg-primary font-bold w-[200px] h-[50px] my-6 rounded-xl">
             Apply Now

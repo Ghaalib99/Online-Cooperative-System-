@@ -19,13 +19,18 @@ const Loans = () => {
         </div>
         <div className="w-full h-full bg-light bg-opacity-90 text-center p-6 text-white flex justify-center items-center flex-col">
           <h3 className="font-bold text-2xl w-[70%] my-4">
-            Luxe Online Cooperative Platform grants you access to loans that are
-            payable over a long period of time at very low interests.
+            Welcome to Luxe loans!
           </h3>
+          <p className="w-[70%] text-xl mb-4">
+          At Luxe, we believe in empowering individuals by providing access to affordable and flexible loans.
+        Our mission is to help you achieve your goals and dreams without financial burdens.
+        Whether it's for a business venture, education, or any other personal needs,
+        our low-interest loans are designed to fit your financial situation.
+          </p>
           <p className="w-[70%] text-xl">
-            Loans are granted based on the credit limit of each individual Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit. Officia magni
-            nihil ratione.
+          We understand that each individual has unique credit worthiness,
+        and that's why we assess the credit limit of each applicant to offer customized loan solutions.
+        You can trust Luxe to provide transparent and secure lending services.
           </p>
           <Link to="/loans/loan-application">
             <button className="bg-primary font-bold w-[200px] h-[50px] my-6 rounded-xl">
