@@ -27,7 +27,7 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        <div className="flex justify-between  font-bold text-lg ">
+        <div className="hidden lg:flex justify-between  font-bold text-lg ">
           <NavLink to='/loans'>
             <div className="cursor-pointer hover:text-light mr-6">Loans</div>
           </NavLink>
@@ -41,8 +41,8 @@ const Navbar = () => {
               Asset Financing
             </div>
           </NavLink>
-          <NavLink to='/careers'>
-            <div className="cursor-pointer hover:text-light mr-6">Careers</div>
+          <NavLink to='/forum'>
+            <div className="cursor-pointer hover:text-light mr-6">Forum</div>
           </NavLink>
         </div>
 
@@ -65,7 +65,26 @@ const Navbar = () => {
         />
       </div>
       {mobileMenu && (
-        <div className="bg-[#e9ad53] md:hidden w-full h-40 absolute top-[60px] z-50 cursor-pointer flex justify-around items-center shadow-2xl">
+        <div className="bg-[#e9ad53] md:hidden w-full p-4 absolute top-[60px] z-50 cursor-pointer  shadow-2xl">
+          <div className=" md:hidden font-bold text-lg ">
+          <NavLink to='/loans'>
+            <div className="cursor-pointer hover:text-light mr-6">Loans</div>
+          </NavLink>
+          <NavLink to='/investments'>
+            <div className="cursor-pointer hover:text-light mr-6">
+              Investments
+            </div>
+          </NavLink>
+          <NavLink to='/asset-financing'>
+            <div className="cursor-pointer hover:text-light mr-6">
+              Asset Financing
+            </div>
+          </NavLink>
+          <NavLink to='/forum'>
+            <div className="cursor-pointer hover:text-light mr-6">Forum</div>
+          </NavLink>
+        </div>
+
           <Link to="/register">
             <button className="theme-btn btn-style-four hover:text-[#e9ad53] ">
               Register

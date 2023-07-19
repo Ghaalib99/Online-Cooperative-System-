@@ -14,10 +14,10 @@ const AssetFinancing = () => {
       <Navbar />
 
       <div className="w-full  lg:grid grid-cols-2 h-[100vh]">
-        <div className=" h-full ">
+        <div className="hidden lg:block h-full ">
           <img src={asset} alt="" className=" w-full h-full object-cover " />
         </div>
-        <div className="bg-light bg-opacity-90 text-center p-6 text-white flex justify-center items-center flex-col">
+        <div className="w-full h-full bg-light bg-opacity-90 text-center p-6 text-white flex justify-center items-center flex-col">
           <h3 className="font-bold text-2xl w-[70%] my-4">
             Luxe Online Cooperative Platform grants you access to AssetFinancing
             that are payable over a long period of time at very low interests.
