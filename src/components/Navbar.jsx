@@ -27,7 +27,7 @@ const Navbar = () => {
           </h1>
         </Link>
 
-        <div className="hidden lg:flex justify-between  font-bold text-lg ">
+        <div className="hidden md:flex justify-between  font-bold text-lg ">
           <NavLink to='/loans'>
             <div className="cursor-pointer hover:text-light mr-6">Loans</div>
           </NavLink>
@@ -68,33 +68,35 @@ const Navbar = () => {
         <div className="bg-[#e9ad53] md:hidden w-full p-4 absolute top-[60px] z-50 cursor-pointer  shadow-2xl">
           <div className=" md:hidden font-bold text-lg ">
           <NavLink to='/loans'>
-            <div className="cursor-pointer hover:text-light mr-6">Loans</div>
+            <div className="cursor-pointer hover:text-light  p-2  border-b-[1px] hover:bg-opacity-40">Loans</div>
           </NavLink>
           <NavLink to='/investments'>
-            <div className="cursor-pointer hover:text-light mr-6">
+            <div className="cursor-pointer hover:text-light  p-2  border-b-[1px] hover:bg-opacity-40">
               Investments
             </div>
           </NavLink>
           <NavLink to='/asset-financing'>
-            <div className="cursor-pointer hover:text-light mr-6">
+            <div className="cursor-pointer hover:text-light  p-2  border-b-[1px] hover:bg-opacity-40">
               Asset Financing
             </div>
           </NavLink>
           <NavLink to='/forum'>
-            <div className="cursor-pointer hover:text-light mr-6">Forum</div>
+            <div className="cursor-pointer hover:text-light  p-2  border-b-[1px] hover:bg-opacity-40">Forum</div>
           </NavLink>
         </div>
 
-          <Link to="/register">
+          <div className="mt-4 flex justify-center">
+          <Link to="/register" className="block">
             <button className="theme-btn btn-style-four hover:text-[#e9ad53] ">
               Register
             </button>
           </Link>
-          <Link to="/register">
+          <Link to="/login" className="block">
             <button className="theme-btn btn-style-four hover:text-[#e9ad53] ">
               Login
             </button>
           </Link>
+          </div>
         </div>
       )}
     </>

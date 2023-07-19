@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Navbar from '../components/Navbar';
 
 const ChatForum = () => {
     const initialMessages = [
@@ -41,6 +42,9 @@ const ChatForum = () => {
       };
 
   return (
+    <>
+    {/* <div className='text-white'>...</div> */}
+    {/* <Navbar /> */}
     <div className="flex flex-col h-full p-8 bg-primary min-h-[100vh]">
       <div className="flex-1 bg-light p-4  rounded-lg shadow-md overflow-y-auto">
         {messages.map((message) => (
@@ -72,6 +76,8 @@ const ChatForum = () => {
         </button>
       </div>
     </div>
+    </>
+    
   );
 };
 

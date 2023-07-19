@@ -7,6 +7,7 @@ import Loans from "./pages/Loans";
 import AssetFinancing from "./pages/AssetFinanancing";
 import Investment from "./pages/Investment";
 import ChatForum from "./pages/ChatForum";
+import LoanApplication from "./pages/LoanApplication";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/asset-financing" element={<AssetFinancing />} />
       <Route path="/investments" element={<Investment />} />
       <Route path="/forum" element={<ChatForum />} />
+      <Route path="/loans/loan-application" element={<LoanApplication />} />
     </Routes>
       
     </div>

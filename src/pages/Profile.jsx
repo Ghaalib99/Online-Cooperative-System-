@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const Profile = () => {
   const navigate = useNavigate();
+  const userData = JSON.parse(localStorage.getItem("user"));
   return (
     <div>
       <div className="h-20 mb-4 w-full bg-white py-2 px-6 flex justify-between items-center  z-50 shadow-2xl">
@@ -27,7 +28,7 @@ const Profile = () => {
           <div className=" lg:w-[35%] bg-white mb-6 lg:mb-0 rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]   p-4">
             <div className="h-[200px] relative w-full flex justify-center items-center">
               <img
-                src={Ellipse120pic}
+                src={userData.profilePicture || Ellipse120pic}
                 alt=""
                 className="block rounded-full h-[120px] w-[120px] lg:h-[180px] lg:w-[180px] "
               />
@@ -36,31 +37,34 @@ const Profile = () => {
               <div className="flex w-full justify-center mb-[1px] p-2 text">
                 <MdArrowBackIos sx={{ marginRight: "5px" }} />
                 <p>
-                  <span className="font-bold">Fullname: </span>John Doe
+                  <span className="font-bold">Fullname: </span>
+                  {userData.firstname} {userData.lastname}
                 </p>
               </div>
               <div className="flex w-full justify-center mb-[1px] p-2">
                 <MdArrowBackIos sx={{ marginRight: "5px" }} />
                 <p>
                   <span className="font-bold">Email: </span>
-                  johndoe@hotmail.com
+                  {userData.email}
                 </p>
               </div>
               <div className="flex w-full justify-center mb-[1px] p-2">
                 <MdArrowBackIos sx={{ marginRight: "5px" }} />
                 <p>
-                  <span className="font-bold">Phone Number: </span>+234 7011
-                  2233
+                  <span className="font-bold">Phone Number: </span>
+                  {userData.phoneNumber}
                 </p>
               </div>
               <div className="flex w-full justify-center mb-[1px] p-2">
                 <MdArrowBackIos sx={{ marginRight: "5px" }} />
                 <p>
-                  <span className="font-bold">Location: </span>Ogbomoso
+                  <span className="font-bold">Location: </span>
+                  {userData.location}
                 </p>
               </div>
             </div>
           </div>
+
 
           <div className=" lg:w-[65%] bg-white rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]  p-4">
             <h2 className="font-bold text-3xl mb-8">Dashboard</h2>
